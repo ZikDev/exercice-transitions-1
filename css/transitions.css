@@ -59,3 +59,19 @@
 #ex07 .wrapper:hover .box {
   background-color: var(--midnight-green);
 }
+
+#ex08 .wrapper {
+  transition: background-color 0.3s;
+}
+
+#ex08 .box {
+  transition: background-color 0.3s;
+}
+
+#ex08 .wrapper:hover .box {
+  background-color: var(--beige);
+}
+
+#ex08 .wrapper:hover {
+  background-color: var(--midnight-green);
+}
