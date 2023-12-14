@@ -43,3 +43,19 @@
 #ex06 .wrapper:hover .box {
   background-color: var(--midnight-green);
 }
+
+#ex07 .box:nth-child(1) {
+  transition: background-color 0.3s;
+}
+
+#ex07 .box:nth-child(2) {
+  transition: background-color 0.3s 0.3s;
+}
+
+#ex07 .box:nth-child(3) {
+  transition: background-color 0.3s 0.6s;
+}
+
+#ex07 .wrapper:hover .box {
+  background-color: var(--midnight-green);
+}
