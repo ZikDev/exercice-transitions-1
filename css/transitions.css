@@ -88,3 +88,11 @@
 #ex09 .wrapper:hover {
   background-color: var(--midnight-green);
 }
+
+#ex10 .box {
+  transition: transform 0.3s;
+}
+
+#ex10 .box:hover {
+  transform: translateY(20px);
+}
