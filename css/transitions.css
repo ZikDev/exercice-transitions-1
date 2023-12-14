@@ -35,3 +35,11 @@
   background-color: var(--midnight-green);
   color: var(--beige);
 }
+
+#ex06 .box {
+  transition: background-color 0.3s;
+}
+
+#ex06 .wrapper:hover .box {
+  background-color: var(--midnight-green);
+}
