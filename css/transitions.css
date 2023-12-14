@@ -17,3 +17,12 @@
 #ex03 .box:hover {
   background-color: var(--midnight-green);
 }
+
+#ex04 .box {
+  transition: all 0.5s;
+}
+
+#ex04 .box:hover {
+  background-color: var(--midnight-green);
+  color: var(--beige);
+}
